@@ -9,6 +9,16 @@ Allows AspectJ Weaving of the class(es) under test at loadtime.
 
 [Download JAR](https://github.com/david-888/aspectj-junit-runner/tree/master/dist/aspectj-junit-runner-0.0.1.jar "aspectj-junit-runner-0.0.1.jar")
 
+or
+
+```xml
+<dependency>
+    <groupId>org.shaneking</groupId>
+    <artifactId>org.shaneking.aspectj</artifactId>
+    <version>0.0.2</version>
+</dependency>
+```
+
 To enable AspectJ load time weaving place this annotation on your test class:
 
     @RunWith(AspectJUnit4Runner.class)
