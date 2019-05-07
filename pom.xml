@@ -6,15 +6,16 @@
   <parent>
     <groupId>org.shaneking</groupId>
     <artifactId>org.shaneking.parent</artifactId>
-    <version>0.0.4</version>
+    <version>${revision.parent}</version>
+    <relativePath>../org.shaneking.parent</relativePath>
   </parent>
 
   <artifactId>org.shaneking.aspectj</artifactId>
-  <version>0.0.2</version>
+  <version>${project.parent.version}</version>
   <packaging>jar</packaging>
 
-  <name>AspectJ JUnit Runner</name>
-  <description>AspectJ JUnit Runner</description>
+  <name>AspectJ for ShaneKing</name>
+  <description>AspectJ Helpers(JUnit Runner, ... etc.) for ShaneKing</description>
   <url>https://github.com/ShaneKing/org.shaneking.aspectj</url>
   <inceptionYear>2011-2019</inceptionYear>
 
