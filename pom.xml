@@ -5,7 +5,7 @@
 
   <groupId>org.shaneking.aspectj</groupId>
   <artifactId>org.shaneking.aspectj</artifactId>
-  <version>0.3.0</version>
+  <version>0.4.0</version>
   <packaging>pom</packaging>
 
   <name>AspectJ Series Top Project for ShaneKing</name>
@@ -80,7 +80,7 @@
     </repository>
   </distributionManagement>
   <properties>
-    <skVersion>0.3.0</skVersion>
+    <skVersion>0.4.0</skVersion>
     <maven.compile.source>1.8</maven.compile.source>
     <maven.compile.target>1.8</maven.compile.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -89,7 +89,7 @@
     <com.google.guava_guava_version>27.1-jre</com.google.guava_guava_version>
     <junit_junit_version>4.12</junit_junit_version>
     <!-- <org.aspectj_version>1.9.3</org.aspectj_version> -->
-    <org.aspectj_version>1.8.9</org.aspectj_version><!--com.github.shaneking_aspectj-junit-runner-->
+    <org.aspectj_version>1.8.9</org.aspectj_version><!--  -->
     <org.projectlombok_lombok_version>1.18.6</org.projectlombok_lombok_version>
     <org.slf4j_version>1.7.26</org.slf4j_version>
     <!-- plugins -->
@@ -105,7 +105,8 @@
   </properties>
 
   <modules>
-    <module>../org.shaneking.aspectj.runner</module>
+    <module>../org.shaneking.aspectj.helper</module>
+    <module>../org.shaneking.aspectj.jsqlparser</module>
   </modules>
 
   <dependencyManagement>
