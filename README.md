@@ -26,8 +26,8 @@ ShaneKing is released under [Apache-2.0][].
 [travis]:https://travis-ci.org/ShaneKing/org.shaneking.aspectj
 [travis img]:https://secure.travis-ci.org/ShaneKing/org.shaneking.aspectj.png
 
-[codecov]:https://codecov.io/github/ShaneKing/org.shaneking.aspectj?branch=master
-[codecov img]:https://codecov.io/github/ShaneKing/org.shaneking.aspectj/coverage.svg?branch=master
+[codecov]:https://codecov.io/gh/ShaneKing/org.shaneking.aspectj
+[codecov img]:https://codecov.io/gh/ShaneKing/org.shaneking.aspectj/branch/master/graph/badge.svg
 [codacy]:https://www.codacy.com/app/ShaneKing/org.shaneking.aspectj
 [codacy img]:https://api.codacy.com/project/badge/grade/7060e58b22064b3f8b68dffda54a3916
 
