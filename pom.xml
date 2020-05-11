@@ -5,7 +5,7 @@
 
   <groupId>org.shaneking.aspectj</groupId>
   <artifactId>org.shaneking.aspectj</artifactId>
-  <version>0.4.6</version>
+  <version>0.4.7</version>
   <packaging>pom</packaging>
 
   <name>AspectJ Series Top Project for ShaneKing</name>
@@ -80,7 +80,7 @@
     </repository>
   </distributionManagement>
   <properties>
-    <skVersion>0.11.3</skVersion>
+    <skVersion>0.12.2</skVersion>
     <maven.compile.source>1.8</maven.compile.source>
     <maven.compile.target>1.8</maven.compile.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -89,7 +89,7 @@
     <com.google.guava_guava_version>28.1-jre</com.google.guava_guava_version>
     <junit_junit_version>4.12</junit_junit_version>
     <!-- <org.aspectj_version>1.9.3</org.aspectj_version> -->
-    <org.aspectj_version>1.8.9</org.aspectj_version><!-- for org.shaneking.aspectj.helper -->
+    <org.aspectj_version>1.8.9</org.aspectj_version><!-- for org.shaneking.aspectj.test -->
     <org.projectlombok_lombok_version>1.18.10</org.projectlombok_lombok_version>
     <org.slf4j_version>1.7.28</org.slf4j_version>
     <!-- plugins -->
@@ -104,12 +104,12 @@
     <maven-source-plugin.version>3.1.0</maven-source-plugin.version>
   </properties>
 
-  <!-- mvn -N versions:set -DnewVersion=0.4.6 -->
+  <!-- mvn -N versions:set -DnewVersion=0.4.7 -->
   <!-- mvn versions:commit -->
   <!-- Unused : mvn -N versions:update-child-modules -->
   <modules>
+    <module>../org.shaneking.aspectj.test</module>
     <module>../org.shaneking.aspectj.currentlimiter</module>
-    <module>../org.shaneking.aspectj.helper</module>
     <module>../org.shaneking.aspectj.jsqlparser</module>
   </modules>
 
@@ -160,6 +160,12 @@
         <groupId>org.shaneking</groupId>
         <artifactId>org.shaneking.skava</artifactId>
         <version>${skVersion}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.shaneking</groupId>
+        <artifactId>org.shaneking.test</artifactId>
+        <version>${skVersion}</version>
+        <scope>test</scope>
       </dependency>
     </dependencies>
   </dependencyManagement>
