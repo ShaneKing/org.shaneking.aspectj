@@ -6,13 +6,13 @@
   <parent>
     <groupId>org.shaneking</groupId>
     <artifactId>org.shaneking</artifactId>
-    <version>0.13.3</version>
+    <version>0.13.6</version>
     <relativePath>../org.shaneking</relativePath>
   </parent>
 
   <groupId>org.shaneking.aspectj</groupId>
   <artifactId>org.shaneking.aspectj</artifactId>
-  <version>0.5.2</version>
+  <version>0.5.3</version>
   <packaging>pom</packaging>
 
   <name>AspectJ Series Top Project for ShaneKing</name>
@@ -87,14 +87,14 @@
     </repository>
   </distributionManagement>
   <properties>
-    <org.shaneking_version>0.13.3</org.shaneking_version>
+    <org.shaneking_version>0.13.6</org.shaneking_version>
     <!-- dependencies -->
     <aspectj.version>1.8.9</aspectj.version><!-- reset spring-boot-dependencies>aspectj.version for org.shaneking.aspectj.test -->
     <!-- plugins -->
     <com.github.m50d_aspectj-maven-plugin_version>1.11.1</com.github.m50d_aspectj-maven-plugin_version><!-- jsqlparser -->
   </properties>
 
-  <!-- mvn -N versions:set -DgenerateBackupPoms=false -DnewVersion=0.5.2 -->
+  <!-- mvn -N versions:set -DgenerateBackupPoms=false -DnewVersion=0.5.3 -->
   <modules>
     <module>../org.shaneking.aspectj.test</module>
     <module>../org.shaneking.aspectj.currentlimiter</module>
